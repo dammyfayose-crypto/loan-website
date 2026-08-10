@@ -1,0 +1,119 @@
+/* ===========================
+   TABLETS
+=========================== */
+
+@media (max-width: 992px){
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding:60px 5%;
+    }
+
+    .hero-content{
+        width:100%;
+    }
+
+    .hero-image{
+        width:100%;
+        margin-top:40px;
+    }
+
+    .hero-content h1{
+        font-size:45px;
+    }
+
+}
+
+/* ===========================
+   MOBILE PHONES
+=========================== */
+
+@media (max-width:768px){
+
+    .navbar{
+        padding:15px;
+    }
+
+    .logo h2{
+        font-size:26px;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .hero{
+        min-height:auto;
+        padding:50px 20px;
+    }
+
+    .hero-content h1{
+        font-size:35px;
+    }
+
+    .hero-content p{
+        font-size:16px;
+    }
+
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        align-items:center;
+    }
+
+    .btn-secondary{
+        margin-left:0;
+    }
+
+    .section-title h2{
+        font-size:30px;
+    }
+
+    .feature-card,
+    .service-card{
+        padding:25px;
+    }
+
+}
+
+/* ===========================
+   SMALL PHONES
+=========================== */
+
+@media (max-width:480px){
+
+    .hero-content h1{
+        font-size:28px;
+    }
+
+    .hero-content p{
+        font-size:15px;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width:100%;
+        text-align:center;
+    }
+
+    footer{
+        padding:35px 15px;
+    }
+
+}

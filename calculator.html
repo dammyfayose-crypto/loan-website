@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Loan Calculator | Oddas Skyroof Integrated Ltd</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animations.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+<h2>OSIL</h2>
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="calculator.html">Calculator</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<a href="#" class="btn-primary">Apply Now</a>
+
+</nav>
+
+</header>
+
+<section class="why-us">
+
+<div class="section-title">
+
+<h2>Loan Calculator</h2>
+
+<p>Estimate your monthly repayment instantly.</p>
+
+</div>
+
+<div class="feature-card">
+
+<label>Loan Amount (₦)</label>
+
+<input type="number" id="amount" placeholder="Enter Amount">
+
+<br><br>
+
+<label>Interest Rate (%)</label>
+
+<input type="number" id="interest" placeholder="Enter Interest">
+
+<br><br>
+
+<label>Duration (Months)</label>
+
+<input type="number" id="months" placeholder="Enter Months">
+
+<br><br>
+
+<button class="btn-primary" onclick="calculateLoan()">
+
+Calculate Loan
+
+</button>
+
+<br><br>
+
+<h3 id="result"></h3>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Oddas Skyroof Integrated Ltd</h2>
+
+<p>Km 45, Lekki-Epe Express Way, Lagos.</p>
+
+<p>Email: oddasskyroofintegratedltd@gmail.com</p>
+
+<p>&copy; 2026 OSIL</p>
+
+</footer>
+
+<script src="js/calculator.js"></script>
+
+</body>
+
+</html>
